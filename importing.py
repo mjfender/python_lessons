@@ -9,3 +9,7 @@ and then 'print math.sqrt(25)' """
 'from math import *'
 Note: this is not recommended because you don't know
 which functions you're getting """
+
+everything = dir(math)
+print everything
+# to see what functions are in an imported module
